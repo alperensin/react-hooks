@@ -3,6 +3,7 @@ import './App.css';
 import HookUseState from './hooks-example/HookUseState';
 import HookUseEffect from './hooks-example/HookUseEffect';
 import HookUseContext from './hooks-example/HookUseContext';
+import HookUseReducer from './hooks-example/HookUseReducer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HookUseState />
       <HookUseEffect />
       <HookUseContext />
+      <HookUseReducer />
     </div>
   );
 }
