@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import HookUseState from './hooks-example/HookUseState';
 import HookUseEffect from './hooks-example/HookUseEffect';
+import HookUseContext from './hooks-example/HookUseContext';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <HookUseState />
       <HookUseEffect />
+      <HookUseContext />
     </div>
   );
 }
