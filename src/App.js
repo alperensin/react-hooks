@@ -10,6 +10,7 @@ import HookUseMemo from './hooks-example/HookUseMemo';
 import HookUseRef from './hooks-example/HookUseRef';
 import HookUseImperativeHandle from './hooks-example/HookUseImperativeHandle';
 import HookUseLayoutEffect from './hooks-example/HookUseLayoutEffect';
+import CustomHookUseFetch from './hooks-example/CustomHookUseFetch';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <HookUseRef />
       <HookUseImperativeHandle />
       <HookUseLayoutEffect />
+      <CustomHookUseFetch />
     </div>
   );
 }
