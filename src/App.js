@@ -8,6 +8,7 @@ import HookUseReducer from './hooks-example/HookUseReducer';
 import HookUseCallback from './hooks-example/HookUseCallback';
 import HookUseMemo from './hooks-example/HookUseMemo';
 import HookUseRef from './hooks-example/HookUseRef';
+import HookUseImperativeHandle from './hooks-example/HookUseImperativeHandle';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <HookUseCallback />
       <HookUseMemo />
       <HookUseRef />
+      <HookUseImperativeHandle />
     </div>
   );
 }
