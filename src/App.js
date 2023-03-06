@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+
 import HookUseState from './hooks-example/HookUseState';
 import HookUseEffect from './hooks-example/HookUseEffect';
 import HookUseContext from './hooks-example/HookUseContext';
 import HookUseReducer from './hooks-example/HookUseReducer';
+import HookUseCallback from './hooks-example/HookUseCallback';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <HookUseEffect />
       <HookUseContext />
       <HookUseReducer />
+      <HookUseCallback />
     </div>
   );
 }
